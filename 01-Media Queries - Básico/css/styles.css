@@ -15,6 +15,7 @@ body {
     line-height: 2;
 }
 
+/*Para hacer responsive las imagenes*/
 img {
     max-width: 100%;
 }
@@ -39,4 +40,9 @@ p {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto; /* 0 -> arriba / abajo   auto -> izquierda /derecha */
 }
