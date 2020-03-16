@@ -7,3 +7,6 @@ Es un enfoque que nos dice que nuestros diseños deberán ataptarse a as interac
 ¿Cómo logro que mi sitio sea responsive?
 Media Queries
 
+Enfoque: DESKTOP FIRST
+Primero construyes tu sitio y comienzas a aplicar los media queries hacia abajo, es decir, se van considerando dispositivos más pequeños
+
