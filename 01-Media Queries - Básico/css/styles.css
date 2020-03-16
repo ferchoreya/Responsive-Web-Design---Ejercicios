@@ -46,3 +46,34 @@ p {
     max-width: 1200px;
     margin: 0 auto; /* 0 -> arriba / abajo   auto -> izquierda /derecha */
 }
+
+
+/*Media Queries, que apartir de cierto punto podemos cambiar la apariencia,
+* RECORDAR: Que el ultimo color definido es el que se aplicara al elemento
+*/
+body {
+    background-color:lightblue;
+}
+
+@media (min-width: 500px){
+    body {
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 800px){
+    body {
+        background-color: lightgreen;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+@media (min-width: 600px){
+    h1 {
+        font-size: 4rem;
+    }
+}
